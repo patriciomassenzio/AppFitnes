@@ -1,0 +1,15 @@
+<resources>
+    <color name="colorPrimary">#6200EE</color> <!-- Example primary color -->
+    <color name="colorPrimaryVariant">#3700B3</color> <!-- Example primary variant color -->
+    <color name="colorOnPrimary">#FFFFFF</color> <!-- Example on primary color (text on primary color) -->
+    <color name="colorSecondary">#03DAC5</color> <!-- Example secondary color -->
+    <color name="colorSecondaryVariant">#018786</color> <!-- Example secondary variant color -->
+    <color name="colorOnSecondary">#000000</color> <!-- Example on secondary color (text on secondary color) -->
+    <color name="white">#FFFFFF</color> <!-- Optional: white color -->
+    <color name="backgroundColor">#F5F5F7</color>
+    <color name="primaryTextColor">#1C1C1E</color>
+    <color name="secondaryTextColor">#8E8E93</color>
+    <color name="accentColor">#007AFF</color>
+    <color name="tertiaryTextColor">#A0A0A0</color> <!-- New color definition -->
+    <color name="red">#F01808</color>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Title for the dialog -->
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Budget for Category"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"/>
+
+    <!-- EditText to enter the category -->
+    <EditText
+        android:id="@+id/editTextCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter category"
+        android:inputType="text"
+        android:padding="10dp"
+        android:layout_marginBottom="16dp"
+        android:minHeight="48dp"/> <!-- Ensures touch target size -->
+
+    <!-- EditText to enter the budget amount -->
+    <EditText
+        android:id="@+id/editTextBudgetAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter budget amount"
+        android:inputType="numberDecimal"
+        android:padding="10dp"
+        android:layout_marginBottom="16dp"
+        android:minHeight="48dp"/> <!-- Ensures touch target size -->
+
+    <!-- Confirm button to set the budget -->
+    <Button
+        android:id="@+id/buttonSetBudget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Budget"
+        android:background="?android:attr/selectableItemBackground"
+        android:textColor="@android:color/white"
+        android:backgroundTint="?attr/colorPrimary"
+        android:minHeight="48dp"/> <!-- Ensures touch target size -->
+
+</LinearLayout>
